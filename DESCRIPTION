@@ -1,0 +1,30 @@
+Package: ReadVCF
+Type: Package
+Title: Read dosage and genetic probabilities from a VCF file
+Version: 0.1.0
+Authors@R:
+    c(person(given = "John",
+             family = "Morrison",
+             role = c("aut", "cre"),
+             email = "jmorr@usc.edu"),
+      person(given = "NCI",
+             role = "fnd",
+             comment = "CA196559"),
+      person(given = "NCI",
+             role = "fnd",
+             comment = "CA201407"),
+      person(given = "NIEHS",
+             role = "fnd",
+             comment = "ES007048"),
+      person(given = "NHLBI",
+             role = "fnd",
+             comment = "HL115606"))
+Description: Package to read dosage and genetic probabilities from a VCF file.
+License: GPL-3
+Encoding: UTF-8
+LazyData: true
+Imports: Rcpp (>= 1.0.14)
+LinkingTo: 
+    Rcpp,
+    Rhtslib
+RoxygenNote: 7.3.3
